@@ -2,7 +2,10 @@
 动画2运行效果图如下：
 
 
-
+![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimation基础动画.gif)
+![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimation帧动画.gif)
+![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimation转场动画.gif)
+![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimation组合动画.gif)
 ![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimation.gif)
 ![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimation1.gif)
 
