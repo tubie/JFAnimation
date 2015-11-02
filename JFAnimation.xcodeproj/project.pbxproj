@@ -39,8 +39,6 @@
 		7DDF3B141BDF61A900C31D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDF3B121BDF61A900C31D33 /* Main.storyboard */; };
 		7DDF3B161BDF61A900C31D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDF3B151BDF61A900C31D33 /* Assets.xcassets */; };
 		7DDF3B191BDF61A900C31D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDF3B171BDF61A900C31D33 /* LaunchScreen.storyboard */; };
-		7DE294321BE71F51008570AE /* AllBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE294301BE71F51008570AE /* AllBasicViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7DE294331BE71F51008570AE /* AllBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DE294311BE71F51008570AE /* AllBasicViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		7DE294371BE7202A008570AE /* JFAllBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE294351BE7202A008570AE /* JFAllBasicViewController.m */; settings = {ASSET_TAGS = (); }; };
 		7DE294381BE7202A008570AE /* JFAllBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DE294361BE7202A008570AE /* JFAllBasicViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		7DE2943B1BE72777008570AE /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DE294391BE72777008570AE /* 01.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -91,9 +89,6 @@
 		7DDF3B151BDF61A900C31D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Assets.xcassets; sourceTree = "<group>"; };
 		7DDF3B181BDF61A900C31D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DDF3B1A1BDF61A900C31D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Info.plist; sourceTree = "<group>"; };
-		7DE2942F1BE71F51008570AE /* AllBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBasicViewController.h; sourceTree = "<group>"; };
-		7DE294301BE71F51008570AE /* AllBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllBasicViewController.m; sourceTree = "<group>"; };
-		7DE294311BE71F51008570AE /* AllBasicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllBasicViewController.xib; sourceTree = "<group>"; };
 		7DE294341BE7202A008570AE /* JFAllBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAllBasicViewController.h; sourceTree = "<group>"; };
 		7DE294351BE7202A008570AE /* JFAllBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAllBasicViewController.m; sourceTree = "<group>"; };
 		7DE294361BE7202A008570AE /* JFAllBasicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFAllBasicViewController.xib; sourceTree = "<group>"; };
@@ -129,9 +124,6 @@
 				7DDE91CB1BE26088005A2910 /* JFViewAnimationViewController.h */,
 				7DDE91CC1BE26088005A2910 /* JFViewAnimationViewController.m */,
 				7DDE91CD1BE26088005A2910 /* JFViewAnimationViewController.xib */,
-				7DE2942F1BE71F51008570AE /* AllBasicViewController.h */,
-				7DE294301BE71F51008570AE /* AllBasicViewController.m */,
-				7DE294311BE71F51008570AE /* AllBasicViewController.xib */,
 				7DE294341BE7202A008570AE /* JFAllBasicViewController.h */,
 				7DE294351BE7202A008570AE /* JFAllBasicViewController.m */,
 				7DE294361BE7202A008570AE /* JFAllBasicViewController.xib */,
@@ -317,7 +309,6 @@
 				7DDD1AE31BE091C200E1E32B /* 2.png in Resources */,
 				7DDD1AE21BE091C200E1E32B /* 10.png in Resources */,
 				7DDCF82A1BDFA4960071392A /* JFRootViewController.xib in Resources */,
-				7DE294331BE71F51008570AE /* AllBasicViewController.xib in Resources */,
 				7DE2943C1BE72777008570AE /* 02.jpg in Resources */,
 				7DDAA5D01BE1039C005EBC50 /* contanctGoNext@2x.png in Resources */,
 				7DDD1AE41BE091C200E1E32B /* 3.png in Resources */,
@@ -360,7 +351,6 @@
 				7DDD1AD41BE08E6900E1E32B /* CATransitionViewController.m in Sources */,
 				7DDCF8331BDFACFA0071392A /* CABasicAnimationViewController.m in Sources */,
 				7DDF3B0B1BDF61A900C31D33 /* main.m in Sources */,
-				7DE294321BE71F51008570AE /* AllBasicViewController.m in Sources */,
 				7DE294371BE7202A008570AE /* JFAllBasicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

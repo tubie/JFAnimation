@@ -4,7 +4,8 @@
 //
 //  Created by 保修一站通 on 15/10/28.
 //  Copyright © 2015年 JF. All rights reserved.
-//
+///  demo详解:http://www.jianshu.com/p/d4c516a2d82a
+//  github :https://github.com/tubie/JFAnimation
 
 #import "CATransitionViewController.h"
 

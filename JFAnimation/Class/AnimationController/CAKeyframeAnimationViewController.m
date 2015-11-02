@@ -4,7 +4,8 @@
 //
 //  Created by 保修一站通 on 15/10/27.
 //  Copyright © 2015年 JF. All rights reserved.
-//
+///  demo详解:http://www.jianshu.com/p/d4c516a2d82a
+//  github :https://github.com/tubie/JFAnimation
 #define Angle2Radian(angle) ((angle) / 180.0 * M_PI)
 
 #import "CAKeyframeAnimationViewController.h"

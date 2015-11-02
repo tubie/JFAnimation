@@ -4,11 +4,11 @@
 //
 //  Created by 保修一站通 on 15/11/2.
 //  Copyright © 2015年 JF. All rights reserved.
-//
-//
-#define IMAGE1 @"01.jpg"
-#define IMAGE2 @"02.jpg"
-#define DURATION 0.7f
+//  demo详解:http://www.jianshu.com/p/d4c516a2d82a
+//  github :https://github.com/tubie/JFAnimation
+#define JFIMAGE1 @"01.jpg"
+#define JFIMAGE2 @"02.jpg"
+#define JFDURATION 0.7f
 #import "JFAllBasicViewController.h"
 
 @interface JFAllBasicViewController ()
@@ -40,7 +40,7 @@ typedef enum : NSUInteger {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
- [self addBgImageWithImageName:IMAGE2];}
+ [self addBgImageWithImageName:JFIMAGE2];}
 
 - (IBAction)buttonClick:(id)sender {
     
@@ -142,12 +142,12 @@ typedef enum : NSUInteger {
     
     static int i = 0;
     if (i == 0) {
-        [self addBgImageWithImageName:IMAGE1];
+        [self addBgImageWithImageName:JFIMAGE1];
         i = 1;
     }
     else
     {
-        [self addBgImageWithImageName:IMAGE2];
+        [self addBgImageWithImageName:JFIMAGE2];
         i = 0;
     }
     
@@ -161,7 +161,7 @@ typedef enum : NSUInteger {
     CATransition *animation = [CATransition animation];
     
     //设置运动时间
-    animation.duration = DURATION;
+    animation.duration = JFDURATION;
     
     //设置运动type
     animation.type = type;
@@ -182,7 +182,7 @@ typedef enum : NSUInteger {
 #pragma UIView实现动画
 - (void) animationWithView : (UIView *)view WithAnimationTransition : (UIViewAnimationTransition) transition
 {
-    [UIView animateWithDuration:DURATION animations:^{
+    [UIView animateWithDuration:JFDURATION animations:^{
         [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
         [UIView setAnimationTransition:transition forView:view cache:YES];
     }];
@@ -202,14 +202,6 @@ typedef enum : NSUInteger {
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
