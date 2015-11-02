@@ -12,6 +12,8 @@
 #import "CAKeyframeAnimationViewController.h"
 #import "CATransitionViewController.h"
 #import "CAAnimationGroupViewController.h"
+#import "JFViewAnimationViewController.h"
+#import "JFAllBasicViewController.h"
 @interface JFRootViewController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property(nonatomic, strong)NSArray *animationNameArray;
@@ -36,8 +38,8 @@
 }
 
 -(void)initData{
-    self.animationNameArray = @[@"CABasicAnimation",@"CAKeyframeAnimation",@"CATransition",@"CAAnimationGroup"];
-    self.chineseNameArray = @[@"基础动画",@"关键帧动画",@"转场动画",@"组合动画"];
+    self.animationNameArray = @[@"CABasicAnimation",@"CAKeyframeAnimation",@"CATransition",@"CAAnimationGroup",@"UIViewAnimation",@"JFAllBaseAnimation"];
+    self.chineseNameArray = @[@"基础动画",@"关键帧动画",@"转场动画",@"组合动画",@"UIView封装动画",@"基础动画小结"];
     
 
 }
@@ -81,6 +83,17 @@
             [self pushToController:[[CAAnimationGroupViewController alloc]init]];
             break;
         }
+        case 4:
+        {
+            [self pushToController:[[JFViewAnimationViewController alloc]init]];
+            break;
+        }
+        case 5:
+        {
+            [self pushToController:[[JFAllBasicViewController alloc]init]];
+            break;
+        }
+
             
         default:
             break;
