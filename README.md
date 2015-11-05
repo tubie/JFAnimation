@@ -8,6 +8,12 @@
 ![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimation组合动画.gif)
 ![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimation.gif)
 ![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimation1.gif)
+![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimationBasketball1.gif)
+![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimationBasketball2.gif)
+![](http://7pum4h.com1.z0.glb.clouddn.com/JFClockAnimation.gif)
+![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimationBrize.gif)
+![](http://7pum4h.com1.z0.glb.clouddn.com/JFAnimationSpread.gif)
+
 
 #项目详解：
 [点击项目详解链接](http://www.jianshu.com/p/d4c516a2d82a)
