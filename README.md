@@ -16,7 +16,9 @@
 
 
 #项目详解：
-[点击项目详解链接](http://www.jianshu.com/p/d4c516a2d82a)
+[动画(1)详解链接](http://www.jianshu.com/p/7fc7e6a6868f)
+[动画(2)详解链接](http://www.jianshu.com/p/d4c516a2d82a)
+[动画(3)详解链接](http://www.jianshu.com/p/7b621da92406)
 ##欢迎指出动画系列的不足之处，我会非常开心^_^ 
 
 
