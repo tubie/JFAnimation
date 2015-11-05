@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JFFlowViewController">
+            <connections>
+                <outlet property="buttomView" destination="EgM-UG-GCX" id="lc1-AX-dzS"/>
+                <outlet property="imageView" destination="tmy-ec-J6g" id="uQj-df-3mo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EgM-UG-GCX">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketball.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tmy-ec-J6g">
+                            <rect key="frame" x="100" y="450" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="2Qg-mW-nuo"/>
+                                <constraint firstAttribute="width" constant="100" id="RgL-zC-4OI"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="tmy-ec-J6g" secondAttribute="bottom" constant="50" id="2l8-aV-uD9"/>
+                        <constraint firstItem="tmy-ec-J6g" firstAttribute="leading" secondItem="EgM-UG-GCX" secondAttribute="leading" constant="100" id="m0D-00-yEO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="EgM-UG-GCX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6Gc-QM-h3I"/>
+                <constraint firstAttribute="trailing" secondItem="EgM-UG-GCX" secondAttribute="trailing" id="6of-7Q-OIb"/>
+                <constraint firstAttribute="bottom" secondItem="EgM-UG-GCX" secondAttribute="bottom" id="a4w-lv-leu"/>
+                <constraint firstItem="EgM-UG-GCX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jxL-cX-86O"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="basketball.jpg" width="1500" height="1500"/>
+    </resources>
+</document>

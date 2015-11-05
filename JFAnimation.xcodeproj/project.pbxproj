@@ -7,7 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0168141BEAF3C600CA19FC /* JFClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0168121BEAF3C600CA19FC /* JFClockViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7D0168151BEAF3C600CA19FC /* JFClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D0168131BEAF3C600CA19FC /* JFClockViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7D01681E1BEAF41A00CA19FC /* ClockFace.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0168161BEAF41A00CA19FC /* ClockFace.png */; settings = {ASSET_TAGS = (); }; };
+		7D01681F1BEAF41A00CA19FC /* ClockFace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0168171BEAF41A00CA19FC /* ClockFace@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7D0168201BEAF41A00CA19FC /* HourHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0168181BEAF41A00CA19FC /* HourHand.png */; settings = {ASSET_TAGS = (); }; };
+		7D0168211BEAF41A00CA19FC /* HourHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0168191BEAF41A00CA19FC /* HourHand@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7D0168221BEAF41A00CA19FC /* MinuteHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D01681A1BEAF41A00CA19FC /* MinuteHand.png */; settings = {ASSET_TAGS = (); }; };
+		7D0168231BEAF41A00CA19FC /* MinuteHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D01681B1BEAF41A00CA19FC /* MinuteHand@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7D0168241BEAF41A00CA19FC /* SecondHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D01681C1BEAF41A00CA19FC /* SecondHand.png */; settings = {ASSET_TAGS = (); }; };
+		7D0168251BEAF41A00CA19FC /* SecondHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D01681D1BEAF41A00CA19FC /* SecondHand@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7D0168291BEB1E7200CA19FC /* JFFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0168271BEB1E7200CA19FC /* JFFlowViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7D01682A1BEB1E7200CA19FC /* JFFlowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D0168281BEB1E7200CA19FC /* JFFlowViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7D01682E1BEB2AD500CA19FC /* JFSpreadAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D01682C1BEB2AD500CA19FC /* JFSpreadAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7D01682F1BEB2AD500CA19FC /* JFSpreadAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D01682D1BEB2AD500CA19FC /* JFSpreadAnimationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7D0168311BEB2B8400CA19FC /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D0168301BEB2B8400CA19FC /* snow.jpg */; settings = {ASSET_TAGS = (); }; };
+		7D0168331BEB2C0800CA19FC /* Spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0168321BEB2C0800CA19FC /* Spark.png */; settings = {ASSET_TAGS = (); }; };
+		7D0168351BEB2E9D00CA19FC /* fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D0168341BEB2E9D00CA19FC /* fire.jpg */; settings = {ASSET_TAGS = (); }; };
 		7DDAA5D01BE1039C005EBC50 /* contanctGoNext@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDAA5CF1BE1039C005EBC50 /* contanctGoNext@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7DDC3BEA1BEA4957001C5455 /* JFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC3BE81BEA4957001C5455 /* JFHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7DDC3BEB1BEA4957001C5455 /* JFHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDC3BE91BEA4957001C5455 /* JFHomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7DDC3BF41BEA4B6A001C5455 /* JFSeniorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC3BF21BEA4B6A001C5455 /* JFSeniorViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7DDC3BF51BEA4B6A001C5455 /* JFSeniorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDC3BF31BEA4B6A001C5455 /* JFSeniorViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7DDC3BFE1BEAE50F001C5455 /* basketball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DDC3BFD1BEAE50F001C5455 /* basketball.jpg */; settings = {ASSET_TAGS = (); }; };
+		7DDC3C021BEAE619001C5455 /* JFBufferBasketballViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC3C001BEAE619001C5455 /* JFBufferBasketballViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7DDC3C031BEAE619001C5455 /* JFBufferBasketballViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDC3C011BEAE619001C5455 /* JFBufferBasketballViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7DDC3C071BEAE843001C5455 /* JFBufferBasketBall2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC3C051BEAE843001C5455 /* JFBufferBasketBall2ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7DDC3C081BEAE843001C5455 /* JFBufferBasketBall2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDC3C061BEAE843001C5455 /* JFBufferBasketBall2ViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		7DDCF8291BDFA4960071392A /* JFRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCF8271BDFA4960071392A /* JFRootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		7DDCF82A1BDFA4960071392A /* JFRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDCF8281BDFA4960071392A /* JFRootViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		7DDCF82E1BDFA5710071392A /* JFAnimationListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCF82C1BDFA5710071392A /* JFAnimationListCell.m */; settings = {ASSET_TAGS = (); }; };
@@ -46,7 +72,40 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D0168111BEAF3C600CA19FC /* JFClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFClockViewController.h; sourceTree = "<group>"; };
+		7D0168121BEAF3C600CA19FC /* JFClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFClockViewController.m; sourceTree = "<group>"; };
+		7D0168131BEAF3C600CA19FC /* JFClockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFClockViewController.xib; sourceTree = "<group>"; };
+		7D0168161BEAF41A00CA19FC /* ClockFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClockFace.png; sourceTree = "<group>"; };
+		7D0168171BEAF41A00CA19FC /* ClockFace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ClockFace@2x.png"; sourceTree = "<group>"; };
+		7D0168181BEAF41A00CA19FC /* HourHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HourHand.png; sourceTree = "<group>"; };
+		7D0168191BEAF41A00CA19FC /* HourHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HourHand@2x.png"; sourceTree = "<group>"; };
+		7D01681A1BEAF41A00CA19FC /* MinuteHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinuteHand.png; sourceTree = "<group>"; };
+		7D01681B1BEAF41A00CA19FC /* MinuteHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MinuteHand@2x.png"; sourceTree = "<group>"; };
+		7D01681C1BEAF41A00CA19FC /* SecondHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondHand.png; sourceTree = "<group>"; };
+		7D01681D1BEAF41A00CA19FC /* SecondHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SecondHand@2x.png"; sourceTree = "<group>"; };
+		7D0168261BEB1E7200CA19FC /* JFFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFFlowViewController.h; sourceTree = "<group>"; };
+		7D0168271BEB1E7200CA19FC /* JFFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFFlowViewController.m; sourceTree = "<group>"; };
+		7D0168281BEB1E7200CA19FC /* JFFlowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFFlowViewController.xib; sourceTree = "<group>"; };
+		7D01682B1BEB2AD500CA19FC /* JFSpreadAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSpreadAnimationViewController.h; sourceTree = "<group>"; };
+		7D01682C1BEB2AD500CA19FC /* JFSpreadAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSpreadAnimationViewController.m; sourceTree = "<group>"; };
+		7D01682D1BEB2AD500CA19FC /* JFSpreadAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFSpreadAnimationViewController.xib; sourceTree = "<group>"; };
+		7D0168301BEB2B8400CA19FC /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpg; sourceTree = "<group>"; };
+		7D0168321BEB2C0800CA19FC /* Spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spark.png; sourceTree = "<group>"; };
+		7D0168341BEB2E9D00CA19FC /* fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fire.jpg; sourceTree = "<group>"; };
 		7DDAA5CF1BE1039C005EBC50 /* contanctGoNext@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contanctGoNext@2x.png"; sourceTree = "<group>"; };
+		7DDC3BE71BEA4957001C5455 /* JFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHomeViewController.h; sourceTree = "<group>"; };
+		7DDC3BE81BEA4957001C5455 /* JFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHomeViewController.m; sourceTree = "<group>"; };
+		7DDC3BE91BEA4957001C5455 /* JFHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFHomeViewController.xib; sourceTree = "<group>"; };
+		7DDC3BF11BEA4B6A001C5455 /* JFSeniorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSeniorViewController.h; sourceTree = "<group>"; };
+		7DDC3BF21BEA4B6A001C5455 /* JFSeniorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSeniorViewController.m; sourceTree = "<group>"; };
+		7DDC3BF31BEA4B6A001C5455 /* JFSeniorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFSeniorViewController.xib; sourceTree = "<group>"; };
+		7DDC3BFD1BEAE50F001C5455 /* basketball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = basketball.jpg; sourceTree = "<group>"; };
+		7DDC3BFF1BEAE619001C5455 /* JFBufferBasketballViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBufferBasketballViewController.h; sourceTree = "<group>"; };
+		7DDC3C001BEAE619001C5455 /* JFBufferBasketballViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBufferBasketballViewController.m; sourceTree = "<group>"; };
+		7DDC3C011BEAE619001C5455 /* JFBufferBasketballViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFBufferBasketballViewController.xib; sourceTree = "<group>"; };
+		7DDC3C041BEAE843001C5455 /* JFBufferBasketBall2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBufferBasketBall2ViewController.h; sourceTree = "<group>"; };
+		7DDC3C051BEAE843001C5455 /* JFBufferBasketBall2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBufferBasketBall2ViewController.m; sourceTree = "<group>"; };
+		7DDC3C061BEAE843001C5455 /* JFBufferBasketBall2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFBufferBasketBall2ViewController.xib; sourceTree = "<group>"; };
 		7DDCF8261BDFA4960071392A /* JFRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRootViewController.h; sourceTree = "<group>"; };
 		7DDCF8271BDFA4960071392A /* JFRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRootViewController.m; sourceTree = "<group>"; };
 		7DDCF8281BDFA4960071392A /* JFRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFRootViewController.xib; sourceTree = "<group>"; };
@@ -107,7 +166,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7DDCF8301BDFACC10071392A /* AnimationController */ = {
+		7DDC3BE31BEA47D7001C5455 /* SeniorAnimationController(动画进阶) */ = {
+			isa = PBXGroup;
+			children = (
+				7DDC3BE41BEA47D7001C5455 /* Controller */,
+				7DDC3BE51BEA47D7001C5455 /* Model */,
+				7DDC3BE61BEA47D7001C5455 /* View */,
+			);
+			name = "SeniorAnimationController(动画进阶)";
+			path = SeniorAnimationController;
+			sourceTree = "<group>";
+		};
+		7DDC3BE41BEA47D7001C5455 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DDC3BF11BEA4B6A001C5455 /* JFSeniorViewController.h */,
+				7DDC3BF21BEA4B6A001C5455 /* JFSeniorViewController.m */,
+				7DDC3BF31BEA4B6A001C5455 /* JFSeniorViewController.xib */,
+				7DDC3BFF1BEAE619001C5455 /* JFBufferBasketballViewController.h */,
+				7DDC3C001BEAE619001C5455 /* JFBufferBasketballViewController.m */,
+				7DDC3C011BEAE619001C5455 /* JFBufferBasketballViewController.xib */,
+				7DDC3C041BEAE843001C5455 /* JFBufferBasketBall2ViewController.h */,
+				7DDC3C051BEAE843001C5455 /* JFBufferBasketBall2ViewController.m */,
+				7DDC3C061BEAE843001C5455 /* JFBufferBasketBall2ViewController.xib */,
+				7D0168111BEAF3C600CA19FC /* JFClockViewController.h */,
+				7D0168121BEAF3C600CA19FC /* JFClockViewController.m */,
+				7D0168131BEAF3C600CA19FC /* JFClockViewController.xib */,
+				7D0168261BEB1E7200CA19FC /* JFFlowViewController.h */,
+				7D0168271BEB1E7200CA19FC /* JFFlowViewController.m */,
+				7D0168281BEB1E7200CA19FC /* JFFlowViewController.xib */,
+				7D01682B1BEB2AD500CA19FC /* JFSpreadAnimationViewController.h */,
+				7D01682C1BEB2AD500CA19FC /* JFSpreadAnimationViewController.m */,
+				7D01682D1BEB2AD500CA19FC /* JFSpreadAnimationViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DDC3BE51BEA47D7001C5455 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DDC3BE61BEA47D7001C5455 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DDCF8301BDFACC10071392A /* AnimationController(基础动画) */ = {
 			isa = PBXGroup;
 			children = (
 				7DDCF8311BDFACFA0071392A /* CABasicAnimationViewController.h */,
@@ -128,12 +237,25 @@
 				7DE294351BE7202A008570AE /* JFAllBasicViewController.m */,
 				7DE294361BE7202A008570AE /* JFAllBasicViewController.xib */,
 			);
+			name = "AnimationController(基础动画)";
 			path = AnimationController;
 			sourceTree = "<group>";
 		};
 		7DDD1AD61BE091C200E1E32B /* viewImage */ = {
 			isa = PBXGroup;
 			children = (
+				7D0168341BEB2E9D00CA19FC /* fire.jpg */,
+				7D0168321BEB2C0800CA19FC /* Spark.png */,
+				7D0168301BEB2B8400CA19FC /* snow.jpg */,
+				7DDC3BFD1BEAE50F001C5455 /* basketball.jpg */,
+				7D0168161BEAF41A00CA19FC /* ClockFace.png */,
+				7D0168171BEAF41A00CA19FC /* ClockFace@2x.png */,
+				7D0168181BEAF41A00CA19FC /* HourHand.png */,
+				7D0168191BEAF41A00CA19FC /* HourHand@2x.png */,
+				7D01681A1BEAF41A00CA19FC /* MinuteHand.png */,
+				7D01681B1BEAF41A00CA19FC /* MinuteHand@2x.png */,
+				7D01681C1BEAF41A00CA19FC /* SecondHand.png */,
+				7D01681D1BEAF41A00CA19FC /* SecondHand@2x.png */,
 				7DDD1AD71BE091C200E1E32B /* 1.png */,
 				7DDD1AD81BE091C200E1E32B /* 10.png */,
 				7DDD1AD91BE091C200E1E32B /* 2.png */,
@@ -190,7 +312,8 @@
 		7DDF3B201BDF61E300C31D33 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				7DDCF8301BDFACC10071392A /* AnimationController */,
+				7DDC3BE31BEA47D7001C5455 /* SeniorAnimationController(动画进阶) */,
+				7DDCF8301BDFACC10071392A /* AnimationController(基础动画) */,
 				7DDF3B241BDF61E300C31D33 /* View */,
 				7DDF3B211BDF61E300C31D33 /* Controller */,
 				7DDF3B221BDF61E300C31D33 /* Model */,
@@ -207,6 +330,9 @@
 				7DDCF8261BDFA4960071392A /* JFRootViewController.h */,
 				7DDCF8271BDFA4960071392A /* JFRootViewController.m */,
 				7DDCF8281BDFA4960071392A /* JFRootViewController.xib */,
+				7DDC3BE71BEA4957001C5455 /* JFHomeViewController.h */,
+				7DDC3BE81BEA4957001C5455 /* JFHomeViewController.m */,
+				7DDC3BE91BEA4957001C5455 /* JFHomeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,13 +434,22 @@
 			files = (
 				7DDD1AE31BE091C200E1E32B /* 2.png in Resources */,
 				7DDD1AE21BE091C200E1E32B /* 10.png in Resources */,
+				7DDC3BFE1BEAE50F001C5455 /* basketball.jpg in Resources */,
 				7DDCF82A1BDFA4960071392A /* JFRootViewController.xib in Resources */,
+				7D0168231BEAF41A00CA19FC /* MinuteHand@2x.png in Resources */,
+				7DDC3C081BEAE843001C5455 /* JFBufferBasketBall2ViewController.xib in Resources */,
 				7DE2943C1BE72777008570AE /* 02.jpg in Resources */,
+				7D0168201BEAF41A00CA19FC /* HourHand.png in Resources */,
+				7DDC3C031BEAE619001C5455 /* JFBufferBasketballViewController.xib in Resources */,
+				7D01681F1BEAF41A00CA19FC /* ClockFace@2x.png in Resources */,
 				7DDAA5D01BE1039C005EBC50 /* contanctGoNext@2x.png in Resources */,
 				7DDD1AE41BE091C200E1E32B /* 3.png in Resources */,
+				7D0168211BEAF41A00CA19FC /* HourHand@2x.png in Resources */,
 				7DDD1AF11BE0992C00E1E32B /* greatApes.png in Resources */,
+				7D0168351BEB2E9D00CA19FC /* fire.jpg in Resources */,
 				7DE294381BE7202A008570AE /* JFAllBasicViewController.xib in Resources */,
 				7DDF3B191BDF61A900C31D33 /* LaunchScreen.storyboard in Resources */,
+				7D01682A1BEB1E7200CA19FC /* JFFlowViewController.xib in Resources */,
 				7DDCF82F1BDFA5710071392A /* JFAnimationListCell.xib in Resources */,
 				7DDCF8381BDFC18D0071392A /* CAKeyframeAnimationViewController.xib in Resources */,
 				7DDF3B161BDF61A900C31D33 /* Assets.xcassets in Resources */,
@@ -324,13 +459,23 @@
 				7DDD1AE11BE091C200E1E32B /* 1.png in Resources */,
 				7DDD1AE91BE091C200E1E32B /* 8.png in Resources */,
 				7DDD1AE81BE091C200E1E32B /* 7.png in Resources */,
+				7D0168311BEB2B8400CA19FC /* snow.jpg in Resources */,
+				7D0168251BEAF41A00CA19FC /* SecondHand@2x.png in Resources */,
 				7DDD1AEF1BE0966D00E1E32B /* CAAnimationGroupViewController.xib in Resources */,
 				7DDD1ACD1BE0530000E1E32B /* bird.png in Resources */,
+				7DDC3BF51BEA4B6A001C5455 /* JFSeniorViewController.xib in Resources */,
 				7DDE91CF1BE26088005A2910 /* JFViewAnimationViewController.xib in Resources */,
 				7DDD1AE61BE091C200E1E32B /* 5.png in Resources */,
 				7DE2943B1BE72777008570AE /* 01.jpg in Resources */,
+				7D01681E1BEAF41A00CA19FC /* ClockFace.png in Resources */,
 				7DDF3B141BDF61A900C31D33 /* Main.storyboard in Resources */,
 				7DDD1AE51BE091C200E1E32B /* 4.png in Resources */,
+				7D0168241BEAF41A00CA19FC /* SecondHand.png in Resources */,
+				7DDC3BEB1BEA4957001C5455 /* JFHomeViewController.xib in Resources */,
+				7D01682F1BEB2AD500CA19FC /* JFSpreadAnimationViewController.xib in Resources */,
+				7D0168221BEAF41A00CA19FC /* MinuteHand.png in Resources */,
+				7D0168331BEB2C0800CA19FC /* Spark.png in Resources */,
+				7D0168151BEAF3C600CA19FC /* JFClockViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,14 +487,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DDCF8291BDFA4960071392A /* JFRootViewController.m in Sources */,
+				7D0168291BEB1E7200CA19FC /* JFFlowViewController.m in Sources */,
 				7DDCF82E1BDFA5710071392A /* JFAnimationListCell.m in Sources */,
+				7DDC3BF41BEA4B6A001C5455 /* JFSeniorViewController.m in Sources */,
 				7DDD1AEE1BE0966D00E1E32B /* CAAnimationGroupViewController.m in Sources */,
 				7DDCF8371BDFC18D0071392A /* CAKeyframeAnimationViewController.m in Sources */,
 				7DDF3B111BDF61A900C31D33 /* ViewController.m in Sources */,
 				7DDF3B0E1BDF61A900C31D33 /* AppDelegate.m in Sources */,
+				7D01682E1BEB2AD500CA19FC /* JFSpreadAnimationViewController.m in Sources */,
 				7DDE91CE1BE26088005A2910 /* JFViewAnimationViewController.m in Sources */,
 				7DDD1AD41BE08E6900E1E32B /* CATransitionViewController.m in Sources */,
+				7DDC3C021BEAE619001C5455 /* JFBufferBasketballViewController.m in Sources */,
 				7DDCF8331BDFACFA0071392A /* CABasicAnimationViewController.m in Sources */,
+				7DDC3C071BEAE843001C5455 /* JFBufferBasketBall2ViewController.m in Sources */,
+				7DDC3BEA1BEA4957001C5455 /* JFHomeViewController.m in Sources */,
+				7D0168141BEAF3C600CA19FC /* JFClockViewController.m in Sources */,
 				7DDF3B0B1BDF61A900C31D33 /* main.m in Sources */,
 				7DE294371BE7202A008570AE /* JFAllBasicViewController.m in Sources */,
 			);

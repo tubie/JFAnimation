@@ -63,7 +63,6 @@
 
 //    anim.keyPath = @"transform.scale.x";//平铺扩充
 //    anim.keyPath = @"transform.translation.y";//平移
-#warning 以下两个效果一样，都是包装成对象类型
     anim.toValue = @(100);
 //        anim.toValue = [NSValue valueWithCGPoint:CGPointMake(100, 100)];
     anim.duration = 2.0;

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "JFRootViewController.h"
+//#import "JFRootViewController.h"
+#import "JFHomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[JFRootViewController alloc]init]];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[JFHomeViewController alloc]init]];
     self.window.rootViewController = nav;
     return YES;
 }

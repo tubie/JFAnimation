@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JFSpreadAnimationViewController">
+            <connections>
+                <outlet property="snowImageView" destination="mbD-tw-SLa" id="0oY-8Z-dxY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fire.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mbD-tw-SLa">
+                    <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mbD-tw-SLa" secondAttribute="bottom" id="KYU-XC-0cH"/>
+                <constraint firstItem="mbD-tw-SLa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Q05-2G-LL4"/>
+                <constraint firstAttribute="trailing" secondItem="mbD-tw-SLa" secondAttribute="trailing" id="ZFT-xs-coY"/>
+                <constraint firstItem="mbD-tw-SLa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="jcw-qb-sEE"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="fire.jpg" width="500" height="333"/>
+    </resources>
+</document>
