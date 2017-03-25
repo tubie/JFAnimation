@@ -2,8 +2,8 @@
 //  JFSeniorViewController.m
 //  JFAnimation
 //
-//  Created by 保修一站通 on 15/11/4.
-//  Copyright © 2015年 JF. All rights reserved.
+//  https://github.com/tubie/JFAnimation
+//  http://www.jianshu.com/u/be0e45643dcf
 //
 
 #import "JFSeniorViewController.h"
